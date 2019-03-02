@@ -20,18 +20,17 @@
         <dependency>
             <groupId>com.healthmarketscience.jackcess</groupId>
             <artifactId>jackcess</artifactId>
-            <version>1.2.12</version>
+            <version>1.2.14.3</version>
         </dependency>
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
-            <version>5.1.30</version>
-            <scope>runtime</scope>
+            <version>5.1.39</version>
         </dependency>
         <dependency>
             <groupId>net.sf.jt400</groupId>
             <artifactId>jt400</artifactId>
-            <version>6.7</version>
+            <version>9.4</version>
             <scope>runtime</scope>
         </dependency>
         <dependency>
@@ -46,12 +45,12 @@
             <version>2.6</version>
             <scope>runtime</scope>
         </dependency>
-        <dependency>
+<!--        <dependency>
             <groupId>org.postgresql</groupId>
             <artifactId>postgresql</artifactId>
             <version>9.3-1101-jdbc41</version>
             <scope>runtime</scope>
-        </dependency>
+        </dependency>-->
         <dependency>
             <groupId>net.sourceforge.jtds</groupId>
             <artifactId>jtds</artifactId>
@@ -60,8 +59,12 @@
         <dependency>
             <groupId>com.oracle</groupId>
             <artifactId>ojdbc14</artifactId>
-            <version>10.2.0.3.0</version>
-<!--             <optional>true</optional> -->
+            <version>10.2.0.4.0</version>
+        </dependency>
+        <dependency>
+            <groupId>com.kingbase</groupId>
+            <artifactId>kingbasejdbc4</artifactId>
+            <version>7.1.2.0714</version>
         </dependency>
     </dependencies>
 

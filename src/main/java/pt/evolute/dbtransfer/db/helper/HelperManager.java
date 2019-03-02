@@ -28,6 +28,10 @@ public class HelperManager
 		{
 			System.out.println( "Oracle translator" );
 			tr = OracleServerHelper.getTranslator();
+		}else if( url.startsWith( "jdbc:kingbase:" ) )
+		{
+			System.out.println( "KingBase translator" );
+			tr = KingBaseServerHelper.getTranslator();
 		}
 		if( tr == null )
 		{
